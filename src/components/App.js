@@ -1,17 +1,19 @@
 import React from "react";
-import First from "./first_component";
+import Main from "./main_component";
 
 export default function App() {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <h1>This is some text</h1>
+            <nav className="navbar navbar-expand-md navbar-dark bg-light">
+                <h1>Welcome to the Translator!</h1>
             </nav>
             <main>
-                <h2>Welcome to the App!</h2>
+                <div className="container">
+                    <h2></h2>
+                </div>
                 <div className="container">
                     <div className="row">
-                        <First />
+                        <Main />
                     </div>
                 </div>
             </main>
