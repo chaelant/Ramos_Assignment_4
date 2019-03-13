@@ -11,7 +11,7 @@ function HtmlComponent(props) {
     )
 }
 
-class MdComponent extends React.Component {
+class EditorComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -44,4 +44,4 @@ class MdComponent extends React.Component {
     }
 }
 
-export default MdComponent;
+export default EditorComponent;
