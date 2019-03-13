@@ -7,18 +7,10 @@ const showdown = require('showdown');
 const converter = showdown.Converter();
 
 class Main extends React.Component {
-
     render() {
         return (
             <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <MdComponent/>
-                    </div>
-                    <div className="col">
-                        <HtmlComponent/>
-                    </div>
-                </div>
+                <MdComponent/>
                 <div className="row">
                     <div className="col">
                         <Downloader/>
