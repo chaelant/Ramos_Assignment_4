@@ -15,7 +15,7 @@ class EditorComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            value: 'Enter Markdown notes here',
+            value: '',
             html: ''
         };
 

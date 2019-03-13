@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-// import jquery from 'jquery';
 
 function handleHtmlClick(e) {
     e.preventDefault();
@@ -8,7 +7,7 @@ function handleHtmlClick(e) {
     document.body.appendChild(a);
     a.style = "display: none";
 
-    let styles = "<style>html {font-family: 'Helvetica Neue', 'sans-serif';}</style>";
+    let styles = "<style>html {font-family: 'Helvetica Neue', 'sans-serif';} p {color: midnightblue;} h1, h2, h3, h4, h5, h6 {color: darkgreen;}</style>";
     let header = "<html><head><title>Your Download</title>" + styles + "</head><body>";
     let footer = "</body></html>";
     let html = header + document.getElementById('htmlTextArea').value + footer;
